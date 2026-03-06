@@ -1,0 +1,27 @@
+Charts csv file: https://www.kaggle.com/datasets/jfreyberg/spotify-chart-data/data;;
+column;detail;data wrangling of each column
+date;Date this track appeared in the countries' charts;clean
+country;Country code of the country for this chart entry;"i downloaded a csv file of the official countries codes. 
+Need for a join in MySQL.maybe delete 'global' value"
+position;Position this track appeared in the countries' charts;clean
+streams;Number of streams the track had until 'date';clean
+track_id;Spotify track id;clean
+artists;all artists involved in creating this track;Need to split artists and to create a long format
+artist_genres;genres of the artists featured on this track;Need to split artists and to create a long format
+duration;duration of the track in milliseconds;milliseconds, need to be divided by 60 000 to get the minutes
+explicit;whether or not the track has explicit content (according to Spotify);clean
+name;Name of the track;clean
+;;
+;;
+data analytics;evolution of streams per genre over time;
+;song duration per position and/or per number of streams;
+;relationship between genre, explicit and streams;
+;;
+;;
+Country iso codes file csv file: https://github.com/datasets/country-list/blob/main/data.csv?plain=1;;
+column;detail;data wrangling of each column
+Name ;Country name;clean
+Code;Country code in 2 letters (same as the spotify dataset);need to lower.text to be able to join country
+;;
+remove duplicates;;
+the columns will all have to be lowercase, and underscores instead of spaces (need to align erd to create consistent table);;
