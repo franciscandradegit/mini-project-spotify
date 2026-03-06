@@ -106,6 +106,9 @@ sql-databse│
 │   ├── lineplot_genres.png
 │   └── sorted_genre_barchart_horizontal.png
 │
+├── THE_SPOTIFY.ipynb
+├── charts.ipynb
+├── spotify_bridge_tables_anne.ipynb
 ├── spotify-main.ipynb
 ├── spotify-fixed.ipynb
 ├── spotify_bridge_tables_anne.ipynb
