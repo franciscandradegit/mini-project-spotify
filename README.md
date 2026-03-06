@@ -12,6 +12,10 @@ This project analyzes Spotify streaming data from **2014–2022** to understand 
 
 Using data cleaning, exploratory analysis, and visualization techniques, the project identifies patterns in listener engagement and provides recommendations for music industry stakeholders.
 
+# Project Presentation
+
+https://prezi.com/view/kLpHMHmisajmwcgHCcUN/
+
 ### Key Questions
 
 * Does **song duration** affect streaming performance?
