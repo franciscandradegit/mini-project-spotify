@@ -83,7 +83,7 @@ These insights help explain **listener engagement patterns and music consumption
 # Project Structure
 
 ```
-sql-databse│
+sql-databse
 ├── raw_data/
 │   ├── charts_info.csv
 │   └── data.csv
@@ -108,9 +108,6 @@ sql-databse│
 │
 ├── THE_SPOTIFY.ipynb
 ├── charts.ipynb
-├── spotify_bridge_tables_anne.ipynb
-├── spotify-main.ipynb
-├── spotify-fixed.ipynb
 ├── spotify_bridge_tables_anne.ipynb
 │
 ├── Spotify_Diagram_2026-03-05T13_30_25.809Z.sql
